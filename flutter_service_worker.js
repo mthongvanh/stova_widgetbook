@@ -4,9 +4,10 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "217de8b4cb2cdbb7321ab5d9acd59a75",
-"index.html": "1184c2397dbd85c7213cfa3192ef0340",
-"/": "1184c2397dbd85c7213cfa3192ef0340",
-"main.dart.js": "5e60abff4002752176ec41ce278b365b",
+"index.html": "0294618bbf380b1e1a86ebec323df6ad",
+"/": "0294618bbf380b1e1a86ebec323df6ad",
+"main.dart.js": "17f261537758212254c4a596a2f97d48",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
@@ -79,7 +80,11 @@ const RESOURCES = {
 "assets/packages/meetri_login/assets/bg.jpg": "898d9f24fe5d68e634d8485ab648e741",
 "assets/shaders/ink_sparkle.frag": "e205399e5d8e785fb5abcd7b6250b4c3",
 "assets/lib/widgetbook/assets/default_config.json": "4eee646293ffed18998e9b12ec5726de",
-"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b"
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62"
 };
 
 // The application shell files that are downloaded before a service worker can
