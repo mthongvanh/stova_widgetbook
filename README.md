@@ -1,1 +1,0 @@
-# stova_widgetbook
