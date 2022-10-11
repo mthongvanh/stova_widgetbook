@@ -4,9 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "217de8b4cb2cdbb7321ab5d9acd59a75",
-"index.html": "0e63c8544b863d58e3b98ef8e7dc7cb6",
-"/": "0e63c8544b863d58e3b98ef8e7dc7cb6",
-"main.dart.js": "5e60abff4002752176ec41ce278b365b",
+"index.html": "cf35e475d5b43ebd4a7be4a6e061c65e",
+"/": "cf35e475d5b43ebd4a7be4a6e061c65e",
+"main.dart.js": "ab06904a16ad5b5e8c709afae208daac",
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -68,7 +68,7 @@ const RESOURCES = {
 "assets/packages/meetri_users/assets/default_config.json": "4eee646293ffed18998e9b12ec5726de",
 "assets/packages/navigation_module/assets/default_config.json": "15785ee2ae426c96fc534d6be8c4e833",
 "assets/packages/meetri_core/test_assets/default_config.json": "bca51236adbcadda48c0b8f0f6a7dabb",
-"assets/packages/meetri_theme/assets/default_config.json": "1ddfa3f57aae8412b31a39dc04d31c65",
+"assets/packages/meetri_theme/assets/default_config.json": "e574f6af728f01cc7e6d9b180a2b5c2e",
 "assets/packages/meetri_login/assets/login_bg.jpg": "898d9f24fe5d68e634d8485ab648e741",
 "assets/packages/meetri_login/assets/mp_logo.png": "4be7ea25e15071a7f86705deba5c0aea",
 "assets/packages/meetri_login/assets/ic_back_circle.png": "f3e2240d2b297cf0e2177fcf8f477ebd",

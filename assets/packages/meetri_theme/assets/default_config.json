@@ -1,11 +1,24 @@
 {
   "backgrounds": {},
   "modified": "",
-  "strings": {},
+  "strings": {
+    "themeDataFontFamily": "Bai Jamjuree"
+  },
   "colors": {
-    "primary": "rgba(15,12,52,1.0)",
-    "secondary": "rgba(115,72,216,1.0)",
+    "primary": "rgba(0,0,0,1.0)",
+    "onPrimary": "ffffff",
+    "secondary": "rgba(255,102,51,1.0)",
+    "onSecondary": "white",
+    "error": "rgba(255,102,51,1)",
+    "onError": "white",
+    "background": "f7f7f5",
+    "onBackground": "rgba(26,21,15,1)",
+    "surface": "f7f7f5",
+    "onSurface": "rgba(26,21,15,1)",
+    "darkText": "rgba(0,0,0,1)",
+    "mediumText": "rgba(99,97,94,1)",
     "accent": "yellow",
+    "stovaOrange": "rgba(255,102,51,1)",
     "defaultBlackBg": "11243E",
     "defaultBlackTransparentBg": "rgba(0,0,0,0.6)",
     "defaultBtnBg": "DA11AE",
@@ -13,7 +26,7 @@
     "defaultListHighlight": "rgba(44,70,175,0.5)",
     "defaultHeaderBg": "white",
     "defaultLoginBg": "white",
-    "defaultPageBg": "F7F9FC",
+    "defaultPageBg": "rgba(247,247,245,1)",
     "searchBoxBg": "rgba(242,242,242,1)",
     "darkGray": "c0c1c2",
     "defaultPageHeaderBg": "7C3DE0",
@@ -30,10 +43,56 @@
   "dimens": {
     "defaultChipCornerRadius": 20,
     "defaultEllipsisBorderWidth": 0,
-    "defaultEllipsisSize": 35
+    "defaultEllipsisSize": 35,
+    "fontLarge": 28,
+    "fontMedium": 17,
+    "fontSmall": 11
   },
-  "elements": {},
-  "flags": {},
+  "elements": {
+    "colorSchemePrimary": "$primary",
+    "colorSchemeOnPrimary": "$onPrimary",
+    "colorSchemeSecondary": "$secondary",
+    "colorSchemeOnSecondary": "$onSecondary",
+    "colorSchemeError": "$error",
+    "colorSchemeOnError": "$onError",
+    "colorSchemeBackground": "$background",
+    "colorSchemeOnBackground": "$onBackground",
+    "colorSchemeSurface": "$surface",
+    "colorSchemeOnSurface": "$onSurface",
+    "themeDataPrimaryTextDisplayLarge": "display|{'size':'&fontLarge'}",
+    "themeDataPrimaryTextDisplayMedium": "display|{'size':'&fontMedium'}",
+    "themeDataPrimaryTextDisplaySmall": "display|{'size':'&fontSmall'}",
+    "themeDataPrimaryTextHeadlineMedium": "headline|{'size':'&fontMedium'}",
+    "themeDataPrimaryTextHeadlineSmall": "headline|{'size':'&fontSmall'}",
+    "themeDataPrimaryTextTitleLarge": "title|{'size':'&fontLarge'}",
+    "themeDataPrimaryTextTitleMedium": "title|{'size':'&fontMedium'}",
+    "themeDataPrimaryTextTitleSmall": "title|{'size':'&fontSmall'}",
+    "themeDataPrimaryTextBodyLarge": "body|{'size':'&fontLarge'}",
+    "themeDataPrimaryTextBodyMedium": "body|{'size':'&fontMedium'}",
+    "themeDataPrimaryTextBodySmall": "body|{'size':'&fontSmall'}",
+    "themeDataPrimaryTextLabelLarge": "label|{'size':'&fontLarge'}",
+    "themeDataPrimaryTextLabelSmall": "label|{'size':'&fontSmall'}",
+    "themeDataTextDisplayLarge": "display|{'size':'&fontLarge'}",
+    "themeDataTextDisplayMedium": "display|{'size':'&fontMedium'}",
+    "themeDataTextDisplaySmall": "display|{'size':'&fontSmall'}",
+    "themeDataTextHeadlineLarge": "display|{'size':'&fontLarge'}",
+    "themeDataTextHeadlineMedium": "headline|{'size':'&fontMedium'}",
+    "themeDataTextHeadlineSmall": "headline|{'size':'&fontSmall'}",
+    "themeDataTextTitleLarge": "title|{'size':'&fontLarge'}",
+    "themeDataTextTitleMedium": "title|{'size':'&fontMedium'}",
+    "themeDataTextTitleSmall": "title|{'size':'&fontSmall'}",
+    "themeDataTextBodyLarge": "body|{'size':'&fontLarge'}",
+    "themeDataTextBodyMedium": "body|{'size':'&fontMedium'}",
+    "themeDataTextBodySmall": "body|{'size':'&fontSmall'}",
+    "themeDataTextLabelLarge": "label|{'size':'&fontLarge'}",
+    "themeDataTextLabelMedium": "label|{'size':'&fontMedium'}",
+    "themeDataTextLabelSmall": "label|{'size':'&fontSmall'}",
+    "themeDataPrimaryIcon": "icon",
+    "themeDataIcon": "icon"
+  },
+  "flags": {
+    "colorSchemeIsDark": false
+  },
   "fonts": {
     "bold": "Bai Jamjuree|700",
     "bolditalic": "Bai Jamjuree-Italic|700",
@@ -158,6 +217,55 @@
       "colorAlt": "black",
       "font": "$light",
       "size": 10
+    },
+    "display": {
+      "color": "$darkText",
+      "font": "$light",
+      "size": 13
+    },
+    "headline": {
+      "color": "$darkText",
+      "font": "$light",
+      "size": 13
+    },
+    "title": {
+      "color": "$darkText",
+      "font": "$light",
+      "size": 13
+    },
+    "body": {
+      "color": "$mediumText",
+      "font": "$light",
+      "size": 13
+    },
+    "label": {
+      "color": "$darkText",
+      "font": "$light",
+      "size": 13
+    },
+    "subtitle": {
+      "color": "$darkText",
+      "font": "$light",
+      "size": 13
+    },
+    "bodyText": {
+      "color": "$mediumText",
+      "font": "$light",
+      "size": 13
+    },
+    "caption": {
+      "color": "$darkText",
+      "font": "$light",
+      "size": 13
+    },
+    "button": {
+      "color": "$onPrimary",
+      "font": "$light",
+      "size": 13
+    },
+    "icon": {
+      "color": "$primary",
+      "size": 22
     }
   }
 }
